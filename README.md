@@ -26,13 +26,6 @@ A terminal based Flight Management System built in C++ with user/admin login, fl
 4. Persistent storage using .dat files.
 5. Input-safe custom wrappers for clean user interaction.
 6. Fully contained in a single .cpp file for portability.
-   
-# 📁 Project Structure
-Flight_management_system.cpp
-flights.dat
-users.dat
-bookings.dat
-README.md
 
 # 🔧 Compile and Run (macOS / Linux)
 g++ -std=c++17 Flight_management_system.cpp -o FlightApp
