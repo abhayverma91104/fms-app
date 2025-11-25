@@ -9,6 +9,7 @@
 #include <limits>
 #include <ctime>
 
+
 using namespace std;
 
 struct Booking;
@@ -772,6 +773,7 @@ void userMenu(User* u){
 
 void welcomeScreen(){
     while(true){
+        cout<<"\n------------fms-app------------\n";
         cout<<"\n=== FLIGHT MANAGEMENT SYSTEM ===\n"
             <<"1) Login\n"
             <<"2) Register\n"
@@ -796,7 +798,7 @@ void welcomeScreen(){
             if(id==-1) cout<<"Username exists\n";
             else cout<<"Registered (UID "<<id<<")\n";
         } else if(ch==3){
-            cout<<"Bye\n";
+            cout<<"Byeeeeee\n See you again!!\n";
             break;
         } else cout<<"Invalid\n";
     }
