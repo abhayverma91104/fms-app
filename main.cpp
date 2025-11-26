@@ -9,7 +9,6 @@
 #include <limits>
 #include <ctime>
 
-
 using namespace std;
 
 struct Booking;
@@ -798,7 +797,7 @@ void welcomeScreen(){
             if(id==-1) cout<<"Username exists\n";
             else cout<<"Registered (UID "<<id<<")\n";
         } else if(ch==3){
-            cout<<"Byeeeeee\n See you again!!\n";
+            cout<<"Byeeeeee\nSee you again!!\n";
             break;
         } else cout<<"Invalid\n";
     }
