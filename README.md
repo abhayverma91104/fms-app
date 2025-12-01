@@ -27,14 +27,6 @@ A terminal based Flight Management System built in C++ with user/admin login, fl
 5. Input-safe custom wrappers for clean user interaction.
 6. Fully contained in a single .cpp file for portability.
 
-# 🔧 Compile and Run (macOS / Linux)
-g++ -std=c++17 Flight_management_system.cpp -o FlightApp
-./FlightApp
-
-# ▶️ Compile and Run (Windows)
-g++ -std=c++17 Flight_management_system.cpp -o FlightApp.exe
-FlightApp.exe
-
 # 📌 Requirements
 C++17-compatible compiler (g++, clang++, or MSVC).
 Terminal or command prompt environment.
